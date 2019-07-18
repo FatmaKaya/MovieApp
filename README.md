@@ -9,5 +9,6 @@
 ![Movie Sayfası- Category Seçimi](https://github.com/FatmaKaya/MovieApp/blob/master/img/Movies-category.PNG)
 ###### *4. Details Sayfası*
 ![Details Sayfası](https://github.com/FatmaKaya/MovieApp/blob/master/img/Details.PNG)
+![Details Sayfası](https://github.com/FatmaKaya/MovieApp/blob/master/img/Details2.PNG)
 
 
