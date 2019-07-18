@@ -13,9 +13,14 @@ namespace MovieApp.MvcWebUI.Controllers
         {
             return View();
         }
-        public IActionResult List()
+        public IActionResult List(int? id)
         {
-            return View(MovieRepository.Movies);
+            var movies = MovieRepository.Movies;
+            if (id != null)
+            {
+                movies = movies.Where(movie => movie.CategoryId == id).ToList();
+            }
+            return View(movies);
         }
     }
 }
