@@ -1,10 +1,15 @@
 ﻿@model IEnumerable<Movie>
-    <div class="album py-5 bg-light">
-        <div class="container">
-            <div class="row">
-
-                @await Html.PartialAsync("_MovieList", Model)
-
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                @await Component.InvokeAsync("Menu")
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    @await Html.PartialAsync("_MovieList", Model)
+                </div>
             </div>
         </div>
     </div>
+</div>
