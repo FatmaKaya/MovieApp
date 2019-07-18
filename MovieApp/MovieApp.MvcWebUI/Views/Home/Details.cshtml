@@ -1,0 +1,31 @@
+﻿@model  Movie
+@{
+    ViewData["Title"] = "Details";
+}
+
+    <div class="container" style="margin-top:2rem">
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="list-group" >
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="card" style="width:50rem;">
+                    <img class="card-img-top" src="~/img/@Model.Image" alt="@Model.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model.Name</h5>
+                        <p class="card-text">@Model.Description</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+

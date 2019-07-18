@@ -13,5 +13,9 @@ namespace MovieApp.MvcWebUI.Controllers
         {
             return View(MovieRepository.Movies);
         }
+        public IActionResult Details(int id)
+        {
+            return View(MovieRepository.Movies.FirstOrDefault(movie => movie.Id == id));
+        }
     }
 }
