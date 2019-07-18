@@ -11,16 +11,15 @@ namespace MovieApp.MvcWebUI.Models
         static MovieRepository()
         {
             movies = new List<Movie>() {
-                new Movie(){Id=1,Name="Movie 1",Image="1.jpg"},
-                new Movie(){Id=2,Name="Movie 2",Image="2.jpg"},
-                new Movie(){Id=3,Name="Movie 3",Image="3.jpg"},
-                new Movie(){Id=4,Name="Movie 4",Image="4.jpg"},
-                new Movie(){Id=5,Name="Movie 5",Image="5.jpg"},
-                new Movie(){Id=6,Name="Movie 6",Image="6.jpg"},
-                new Movie(){Id=7,Name="Movie 7",Image="7.jpg"},
-                new Movie(){Id=8,Name="Movie 8",Image="8.jpg"},
-                new Movie(){Id=9,Name="Movie 9",Image="9.jpg"},
-                new Movie(){Id=10,Name="Movie 10",Image="10.jpg"},
+                new Movie(){Id=1,Name="image 1",Image="1.jpeg"},
+                new Movie(){Id=2,Name="image 2",Image="2.jpeg"},
+                new Movie(){Id=3,Name="image 3",Image="3.jpeg"},
+                new Movie(){Id=4,Name="image 4",Image="4.jpeg"},
+                new Movie(){Id=5,Name="image 5",Image="5.jpeg"},
+                new Movie(){Id=6,Name="image 6",Image="6.jpeg"},
+                new Movie(){Id=7,Name="image 7",Image="7.jpeg"},
+                new Movie(){Id=8,Name="image 8",Image="8.jpeg"},
+                new Movie(){Id=9,Name="image 9",Image="9.jpeg"},
             };
         }
         
